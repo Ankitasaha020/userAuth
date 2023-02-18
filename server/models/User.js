@@ -16,5 +16,5 @@ const userSchema = new mongoose.Schema({ //attribute for user schema(is a method
        
     },
 })
-const UserModel1 = mongoose.model("user",userSchema);//convert schema to model object
-export default UserModel1;
+const UserModel = mongoose.model("user",userSchema);//convert schema to model object
+export default UserModel;

@@ -195,7 +195,6 @@ class UserController {
         }
     }
     static user_details = async (req, res) => {
-
         res.status(200).send({ status: "success", "user": req.user });
 
     }
